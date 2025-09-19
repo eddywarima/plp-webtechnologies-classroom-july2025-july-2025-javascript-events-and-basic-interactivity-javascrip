@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.counter-box {
+    margin-top: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
